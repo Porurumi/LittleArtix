@@ -1,0 +1,209 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff4c8b;
+    opacity: 0.7;
+    width: 100%;
+    height: 75px;
+    z-index: 2;
+    font-family:Verdana, Geneva, 
+    Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    font-size: small;
+}
+
+.fun{
+    display: flex;
+    list-style: none;
+}
+
+#entertainment img{
+    width: 250px;
+}
+
+#hotels img, #shopping img, #food img{
+    width: 600px;
+}
+
+#view img,#lmark img{
+    width: 700px;
+}
+
+.logo {
+    display: flex; 
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-left: 2%;
+    font-style: italic;
+}
+
+.logo img {
+    width: 65px; 
+    height: auto; 
+    margin-left: 5px;
+    margin-bottom: 3%;
+}
+
+a {
+    margin: 7px;
+    color: #fdfff5  ;
+    text-shadow: 2px 2px 1px #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: #000000;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-color: #fff1fa;
+    background-image: url(images/finals_bg.jpg);
+}
+
+@font-face {
+    font-family: KingCake;
+    src: url(font/KingCake.otf);
+}
+
+@font-face {
+    font-family: FacebookSans;
+    src: url(font/Facebook-Sans/FacebookSansBold.ttf);
+}
+
+@font-face {
+    font-family: GoogleSans;
+    src: url(font/Google-Sans/ProductSans-Regular.ttf);
+}
+
+.name-container{
+    display: flex;
+}
+
+.flex-child1{
+    flex:1;
+    border:#000000  1px;
+    border-radius: 15px;
+    margin-top: 16vh;
+    margin-right:2vh;
+    margin-left: 2vh;
+    background-color: white;
+    
+}
+
+.flex-child1 h1{
+    font-size: 30px;
+}
+
+
+
+.flex-child1:first-child{
+    margin-right:1vh;
+    background-color: #4267B2;
+}
+
+.flex-child1:first-child h1{
+    font-family: FacebookSans;
+    color: white;
+}
+
+.flex-child1:last-child h1{
+    font-family: GoogleSans;
+}
+
+.review-container2{
+    display:flex;
+}
+
+.flex-child2{
+    flex:1;
+    border:3px  black;
+    border-radius: 15px;
+    margin-top:2vh;
+    margin-right:2vh;
+    margin-left: 2vh;
+    padding-bottom: 20vh;
+    background-color: #fff1fa;
+}
+
+.flex-child2:first-child{
+    margin-right:1vh;
+}
+
+.flex-child2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top:70px;
+}
+
+.flex-child2 #link1{
+    background-color:#4267B2;
+    border: none;
+    border-radius: 70px;
+    font-size: 17px;
+    width: 200px;
+    text-align: center;
+    text-shadow: none;
+    color: white;
+    position:absolute;
+    top:65%;
+    left:17%;
+    margin-top: 35px;
+    font-family: FacebookSans;
+    padding: 10px 20px;
+}
+
+
+.flex-child2 h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:80px;
+    font-family: GoogleSans;
+}
+
+.flex-child2:last-child #link2{
+    background-color:pink;
+    border: none;
+    border-radius: 70px;
+    font-size: 17px;
+    width: 200px;
+    text-align: center;
+    text-shadow: none;
+    color: black;
+    position:absolute;
+    margin-left:34vh;
+    margin-top: 140px;
+    font-family: GoogleSans;
+    padding: 10px 20px;
+}
+footer {
+    margin-top: auto;
+}
+    
+.footer-content  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7e3b42;
+    width: 100%;
+    height: 100;
+}
