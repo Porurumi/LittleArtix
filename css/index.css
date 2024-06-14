@@ -6,10 +6,10 @@
             margin: 0;
             padding: 0;
             font-family: Poppins;
-            background-image:url('images/finals_bg.png');
+            background-image:url('../images/finals_bg.jpg');
             background-attachment:fixed;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100%, 100%;
             
         }
        
@@ -19,14 +19,13 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #ff4c8b;
-            opacity: 0.7;
+            background-color: #fc8eac;
             width: 100%;
             height: 75px;
             z-index: 2;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
-            
+            opacity: .9;
         }
 
         .nav {
@@ -76,7 +75,7 @@
 
         a {
             margin: 7px;
-            color: #d9d9d9;
+            color: white;
             text-shadow: 2px 2px 1px #000000;
             text-decoration: none;
             text-transform: uppercase;
@@ -96,10 +95,13 @@
         margin-top: 12%;
         margin-right: 40%;
         margin-left: 4%;
+        border-radius: 15px;
+        background-color: rgba(255,241,250,0.6) !important;
        }
        .content h1, .content p {
-        color: #d9d9d9;
-        text-shadow: 2px 2px 1px #000000;
+        color: black;
+        padding-right: 20px;
+        padding-left: 20px;
         font-size: 40px;
         font-family: Audiowide;
         text-align: center;
@@ -136,7 +138,7 @@
             background-color: #7e3b42;
             width: 100%;
             height: 100hv; 
-			
+			opacity:.9;
         }
         
         
