@@ -96,6 +96,7 @@ body {
 
 .flex-child1:first-child {
     margin-right: 20px;
+    background-color: rgba(255,241,250,0.8) !important;
 }
 
 .flex-container1 img{
@@ -145,6 +146,7 @@ body {
     margin-top:10vh;
     justify-content: space-between;
     text-justify: center;
+    background-color: rgba(255,241,250,0.8) !important;
 }
 
 .flex-container3 {
@@ -169,6 +171,7 @@ body {
     font-size: 65px;
     font-family:KingCake;
     text-align: center;
+    background-color: rgba(255,241,250,0.8) !important;
 }
 
 footer {

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Feedback</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="feedback_style.css">
 
