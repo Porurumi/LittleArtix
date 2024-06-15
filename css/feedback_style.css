@@ -3,7 +3,10 @@ body{
     background-image:url('images/wp_cake.jpg');
 
 }
-
+@font-face {
+    font-family: LovelyBakery;
+    src: url(../font/Lovely-Bakery/LovelyBakery-K7mWZ.ttf);
+}
 .buffer{
     height: 75px;
 }

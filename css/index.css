@@ -98,10 +98,10 @@
         flex-wrap: wrap;
         flex-direction: row;  
         margin-top: 12%;
-        margin-right: 40%;
+        margin-right: 50%;
         margin-left: 4%;
         border-radius: 15px;
-        background-color: rgba(255,241,250,0.6) !important;
+        background-color: rgba(255,241,250,0.5) !important;
        }
        .content h1, .content p {
         color: black;
@@ -121,8 +121,8 @@
     background-color: #fcfafa94;
     border: none;
     border-radius: 30px;
-    font-size: 25px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 13px;
     margin-bottom: 30px;
     width: 200px;
     font-weight: bold;
@@ -147,5 +147,9 @@
 			opacity:.9;
         }
         
-        
+        .foot{
+            display: flex;
+            list-style: none;
+            font-size: 15px;
+        }
 

@@ -6,7 +6,7 @@
             margin: 0;
             padding: 0;
             font-family: Poppins;
-            background-image:url('../images/finals_bg.jpg');
+            background-image:url('images/finals_bg.png');
             background-attachment:fixed;
             background-repeat: no-repeat;
             background-size: cover;
@@ -18,11 +18,12 @@
             src: url(../font/Lovely-Bakery/LovelyBakery-K7mWZ.ttf);
         }
         .navbar {
-            position: absolute;
+            position: fixed;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #fc8eac;
+            background-color: #ff4c8b;
+            opacity: 0.7;
             width: 100%;
             height: 75px;
             z-index: 2;
@@ -125,30 +126,7 @@
     color: #000000;
        }
 
-      
-    
-    .legal-table {
-        display: flex;
-        text-align: center;
-        padding: 50px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-        color: #d9d9d9; 
-        text-decoration: none;
-        padding-top: 15vh;
-        }
-    
-    .legal-table table {
-        background-color: rgba(255,241,250,0.9) !important;
-        color: black;
-        width: 80%;
-        max-width: 800px;
-        border-collapse: collapse;
-        border-radius: 10px;
-        overflow: hidden;
-        margin-left: auto;
-        margin-right: auto;
-    }
+        
        footer {
         margin-top: auto;
        }
@@ -164,9 +142,5 @@
 			
         }
         
-        .foot{
-            display: flex;
-            list-style: none;
-            font-size: 15px;
-        }
+        
 

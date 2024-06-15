@@ -7,8 +7,7 @@
     width: 100%;
     height: 75px;
     z-index: 2;
-    font-family:Verdana, Geneva, 
-    Tahoma, sans-serif;
+    font-family:LovelyBakery;
     font-weight: bold;
 	opacity:.9;
     
@@ -17,7 +16,7 @@
 .nav {
     display: flex;
     list-style: none;
-    font-size: small;
+    font-size: 19px;
 }
 
 .fun{
@@ -78,7 +77,10 @@ body {
     background-attachment: fixed;
     background-size: 100%, 100%;
 }
-
+@font-face {
+    font-family: LovelyBakery;
+    src: url(../font/Lovely-Bakery/LovelyBakery-K7mWZ.ttf);
+}
 
 @font-face {
     font-family: KingCake;
@@ -212,4 +214,10 @@ footer {
     height: 100;
 	opacity:.9;
     
+}
+
+.foot{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
 }

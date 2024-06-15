@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Feedback</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="feedback_style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/feedback_style.css">
 
 </head>
+
 <body>
     <div class="navbar">
-        <a href="#" class="logo">Little Artix <img src="images/finals_logo.png" alt="Logo"></a>
+        <a href="#" class="logo">Little Artix <img src="images/finals_bg.jpg" alt="Logo"></a>
         <ul class="nav navt">
-                <li><a href="home.html">Home</a> </li>
-                <li> <a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a> </li>
-                <li> <a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a> </li>
-                <li> <a href="reviews.html">Reviews</a></li>
-                <li> <a href="feedback.php">Feedback</a></li>
+            <li><a href="home.html">Home</a> </li>
+            <li> <a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a> </li>
+            <li> <a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a> </li>
+            <li> <a href="reviews.html">Reviews</a></li>
+            <li> <a href="feedback.php">Feedback</a></li>
         </ul>
     </div>
 
@@ -61,26 +63,26 @@
     <div class="feedbackc">
         <h1 align="center">SEND FEEDBACK</h1>
         <p align="center">WE ARE HAPPY TO KNOW YOUR CRITIQUE AND SUGGESTIONS ABOUT OUR PRODUCT AND SERVICES...</p>
-    <div class="container">
-        <form action="/feedback_angeles/feedback_nobs.php" method="post">
-        <div class="mb-3 row">
-            <label for="email" class="col-sm-2 col-form-label"><b>EMAIL ADDRESS</b></label>
-            <div class="col-sm-10">
-                <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
-            </div>
-            </div>
-        <div class="mb-3 row">
-            <label for="feedback" class="col-sm-2 col-form-label feedtext"><b>FEEDBACK/ SUGGESTION</b></label>
-            <div class="col-sm-10">
-                <textarea name="feedback" class="form-control" id="feedback" rows="6"></textarea>
-            </div>
+        <div class="container">
+            <form action="/feedback_angeles/feedback_nobs.php" method="post">
+                <div class="mb-3 row">
+                    <label for="email" class="col-sm-2 col-form-label"><b>EMAIL ADDRESS</b></label>
+                    <div class="col-sm-10">
+                        <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="feedback" class="col-sm-2 col-form-label feedtext"><b>FEEDBACK/ SUGGESTION</b></label>
+                    <div class="col-sm-10">
+                        <textarea name="feedback" class="form-control" id="feedback" rows="6"></textarea>
+                    </div>
+                </div>
+
         </div>
-        
-    </div>
     </div>
 
     <div align="center">
-        <br/>
+        <br />
         <button type="submit" class="btn btn-primary btn-lg"><b>SUBMIT</b></button>
     </div>
     </form>
@@ -91,8 +93,9 @@
         <ul class="nav">
             <li><a href="#disclaimer">Disclaimer</a></li>
             <li><a href="#termsandcondition">Terms and conditions</a></li>
-            <li><a href="#privacy policy">Privacy policy</a></li> 
+            <li><a href="#privacy policy">Privacy policy</a></li>
         </ul>
     </div>
 </footer>
+
 </html>
