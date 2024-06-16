@@ -88,7 +88,6 @@ body {
 
 .flex-container1 {
     display: flex;
-    maring
 }
 
 .flex-child1 {
@@ -115,6 +114,7 @@ body {
 
 .flex-child1 h1{
     font-size: 100px;
+    margin-top: 15vh;
     justify-content: center;
     font-family:KingCake;
     text-align: center;
@@ -145,6 +145,7 @@ body {
 
 .flex-child2:last-child p {
     border-radius: 30px;
+    padding: 20px; 
 }
 
 .flex-child2:first-child img {
