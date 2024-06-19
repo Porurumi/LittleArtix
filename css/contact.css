@@ -13,6 +13,10 @@ body {
 }
 
 @font-face {
+    font-family: AreaNeu;
+    src: url(../font/AreaNeu/AreaNeu-gxaVP.ttf);
+}
+@font-face {
     font-family: LovelyBakery;
     src: url(../font/Lovely-Bakery/LovelyBakery-K7mWZ.ttf);
 }
@@ -47,41 +51,7 @@ body {
 }
 
 
-.all-image{
-    text-align: center;
-    max-width: 100%;
-    height: auto;
 
-}
-#facebook img{
-    width: 75px;
-    margin-top: -500px;
-    margin-left: -200px;
-
-}
-#instagram img{
-    width: 40px;
-    margin-top: -500px;
-    margin-left: -200px;
-
-}
-#gmail img{
-    width: 40px;
-    margin-left: 10px;
-
-}
-#phone img{
-    width: 45px;
-    margin-right: 5px;
-
-}
-#view img{
-    width: 660px;
-    margin-top: -3%;
-    margin-bottom: 5%;
-    border-radius: 20px;
-
-}
 .logo {
     display: flex; 
     align-items: center;
@@ -98,9 +68,9 @@ body {
     margin-bottom: 3%;
 }
 
-a {
+ a {
     margin: 7px;
-    color: #d9d9d9;
+    color: white;
     text-shadow: 2px 2px 1px #000000;
     text-decoration: none;
     text-transform: uppercase;
@@ -110,45 +80,88 @@ a {
     color: #000000;
 }
 
-.content {
-position: relative;
+
+.flex-container{
+    position: relative;
 display: flex;
 justify-content: space-around;
 align-items:center;     
 flex-wrap: wrap;
-flex-direction: row;  
-margin-top: 6%;
-margin-right: 25%;
-margin-left: 25%;
+margin-top: 15vh;
+margin-right: 10%;
+margin-left: 10%;
 margin-bottom: 3%;
 background-color: aliceblue;
 border-radius:30px;
+font-family: AreaNeu;
 }
-.content h1, .content p, .content a {
-color: #140000;
-text-shadow: 2px 2px 1px #f1e4e4;
-font-size: 40px;
-font-family: Audiowide;
-text-align: center;
+
+.header1{
+    padding-top: 2vh;
 }
-.content p {
-font-size: 20px;
-line-height: 35px;
-margin-top: -10px;
-margin-right: 5%;
-margin-left: 5%;
+
+.hello{
+    margin-left: 3%;
 }
-.content a {
+
+.media{
+    padding-top: 4vh;
+    display: flex;
+    flex:2;
+    margin-left:20vh;
+    margin-right:20vh;
+}
+.facebook{
+    margin-right: 80px;
+}
+.facebook p{
+color: black;
+
+}
+.facebook img{
+    width:100px;
+    margin-left: 3px;
+}
+.facebook p, .instagram p{
     font-size: 15px;
-    line-height: 30px;
-    margin-top: 10px;
-    margin-right: 10%;
-    margin-left: 10%;
+}
+.instagram{
+    margin-right: 80px;
+}
+.instagram p{
+    color: black;
+    
 }
 
+.instagram img{
+    width:57px;
+    margin-left: 22px;
+}
 
+#fb_p, #ig_p{
+    text-shadow:none;
+}
+.gmail{
+    margin-right: 80px;
+}
+.gmail img{
+    width: 53px;
+    margin-left: 140px;
+}
+
+.phone img{
+    width: 50px;
+    margin-left: 33px;
+}
+
+.locate_image img{
+    border-radius: 30px;
+    padding-bottom: 5vh;
+
+}
 footer {
 margin-top: auto;
+
 }
 
 .footer-content  {
