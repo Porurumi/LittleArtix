@@ -18,7 +18,10 @@
             font-family: LovelyBakery;
             src: url(../font/Lovely-Bakery/LovelyBakery-K7mWZ.ttf);
         }
-
+        @font-face {
+            font-family: AreaNeu;
+            src: url(../font/AreaNeu/AreaNeu-gxaVP.ttf);
+        }
         .navbar {
             position: fixed;
             display: flex;
@@ -101,24 +104,28 @@
         margin-right: 50%;
         margin-left: 4%;
         border-radius: 15px;
-        background-color: rgba(255,241,250,0.5) !important;
+        /*background-color: rgba(255,241,250,0.5) !important;*/
+        background-color:aliceblue;
+       }
+       .content h1{
+        padding-top: 10px;
        }
        .content h1, .content p {
         color: black;
         padding-right: 20px;
         padding-left: 20px;
-        font-size: 40px;
-        font-family: Audiowide;
+        font-size: 25px;
+        font-family: AreaNeu;
         text-align: center;
        }
        .content p {
-        font-size: 20px;
+        font-size: 14px;
         line-height: 30px;
-        margin-top: -5px;
+        margin-top: 10px;
        }
        .content a {
         position: relative;
-    background-color: #fcfafa94;
+    background-color: #919297;
     border: none;
     border-radius: 30px;
     font-size: 20px;
@@ -128,7 +135,7 @@
     font-weight: bold;
     text-align: center;
     text-shadow: none;
-    color: #000000;
+    color: white;
        }
 
         

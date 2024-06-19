@@ -1,5 +1,5 @@
 .navbar {
-    position: fixed;
+    position:absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,6 +134,8 @@ body {
 
 .review-container2{
     display:flex;
+    
+    
 }
 
 .flex-child2{
@@ -144,7 +146,8 @@ body {
     margin-right:2vh;
     margin-left: 2vh;
     padding-bottom: 20vh;
-    background-color: rgba(255,241,250,0.8) !important;
+    background-color:#4267B2;
+    /*background-color: rgba(255,241,250,0.8) !important;*/
 }
 
 .flex-child2:first-child{
@@ -160,14 +163,14 @@ body {
 }
 
 .flex-child2 #link1{
-    background-color:#4267B2;
+    background-color:white;
     border: none;
     border-radius: 70px;
     font-size: 17px;
     width: 200px;
     text-align: center;
     text-shadow: none;
-    color: white;
+    color: black;
     position:absolute;
     top:65%;
     left:17%;
@@ -176,13 +179,16 @@ body {
     padding: 10px 20px;
 }
 
-
+.flex-child2:last-child{
+    background-color: white;
+}
 .flex-child2 h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top:80px;
     font-family: GoogleSans;
+    
 }
 
 .flex-child2:last-child #link2{

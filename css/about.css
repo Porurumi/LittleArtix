@@ -85,7 +85,10 @@ body {
     font-family: KingCake;
     src: url(../font/King-Cake/KingCake.otf);
 }
-
+@font-face {
+    font-family: AreaNeu;
+    src: url(../font/AreaNeu/AreaNeu-gxaVP.ttf);
+}
 .flex-container1 {
     display: flex;
 }
@@ -99,30 +102,33 @@ body {
 
 .flex-child1:first-child {
     margin-right: 20px;
-    background-color: rgba(255,241,250,0.8) !important;
+    /*background-color: rgba(255,241,250,0.8) !important;*/
+    background-color:aliceblue;
     border-radius: 30px;
+    height: 325px;
+    margin-top: 30vh;
 }
 
 .flex-child1:last-child img{
     border-radius: 30px;
 }
 .flex-container1 img{
-    height: 615px;
+    height: 550px;
     border-radius: 30px;
     margin-left: 13vh;
 }
 
 .flex-child1 h1{
-    font-size: 100px;
-    margin-top: 15vh;
+    font-size: 50px;
+    margin-top: 9vh;
     justify-content: center;
-    font-family:KingCake;
+    font-family:AreaNeu;
     text-align: center;
 }
 .flex-child1 p{
-    font-size: 65px;
+    font-size: 27px;
     justify-content: center;
-    font-family:KingCake;
+    font-family:AreaNeu;
     text-align: center;
 }
 
@@ -140,9 +146,8 @@ body {
 
 .flex-child2:first-child {
     margin-right: 20px;
-    
+    margin-top: 150px;
 }
-
 .flex-child2:last-child p {
     border-radius: 30px;
     padding: 20px;
@@ -159,13 +164,14 @@ body {
 }
 
 .flex-child2 p{
-    font-size: 65px;
-    font-family:KingCake;
+    font-size: 35px;
+    font-family:AreaNeu;
     text-align: center;
     margin-top:10vh;
     justify-content: space-between;
     text-justify: center;
-    background-color: rgba(255,241,250,0.8) !important;
+    /*background-color: rgba(255,241,250,0.8) !important;*/
+    background-color:aliceblue;
 }
 
 .flex-container3 {
@@ -181,6 +187,7 @@ body {
 
 .flex-child3:first-child {
     margin-right: 20px;
+    margin-top: 60px;
 }
 
 .flex-child3:last-child img{
@@ -188,12 +195,13 @@ body {
 }
 
 .flex-child3 p{
-    font-size: 65px;
-    padding: 20px;
+    font-size: 32px;
+    padding: 30px;
     border-radius: 30px;
-    font-family:KingCake;
+    font-family:AreaNeu;
     text-align: center;
-    background-color: rgba(255,241,250,0.8) !important;
+    /*background-color: rgba(255,241,250,0.8) !important;*/
+    background-color:aliceblue;
 }
 
 footer {
