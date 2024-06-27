@@ -6,17 +6,14 @@
             margin: 0;
             padding: 0;
             font-family: Poppins;
-            background-image:url('images/finals_bg.png');
+            background-image:url('images/wp_cake.jpg');
             background-attachment:fixed;
             background-repeat: no-repeat;
             background-size: cover;
             
         }
        
-        @font-face {
-            font-family: LovelyBakery;
-            src: url(../font/Lovely-Bakery/LovelyBakery-K7mWZ.ttf);
-        }
+
         .navbar {
             position: fixed;
             display: flex;
@@ -27,7 +24,7 @@
             width: 100%;
             height: 75px;
             z-index: 2;
-            font-family:LovelyBakery;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bold;
             
         }
@@ -35,7 +32,7 @@
         .nav {
             display: flex;
             list-style: none;
-            font-size: 19px;
+            font-size: small;
         }
         .fun{
             
@@ -43,24 +40,7 @@
             list-style: none;
             
         }
-        #entertainment img{
-            width: 250px;
-        }
-
-      
-        .all-image{
-            text-align: center;
-            max-width: 100%;
-            height: auto;
-
-        }
-        #hotels img, #shopping img, #food img{
-            width: 600px;
-        }
-        #view img,#lmark img{
-            width: 700px;
-
-        }
+        
         .logo {
             display: flex; 
             align-items: center;
@@ -79,7 +59,7 @@
 
         a {
             margin: 7px;
-            color: white;
+            color: #d9d9d9;
             text-shadow: 2px 2px 1px #000000;
             text-decoration: none;
             text-transform: uppercase;
@@ -91,40 +71,72 @@
 
        .content {
         position: relative;
+        background-color: aliceblue;
+        opacity: 90%;
         display: flex;
         justify-content: space-around;
         align-items:center;     
         flex-wrap: wrap;
         flex-direction: row;  
-        margin-top: 12%;
-        margin-right: 40%;
-        margin-left: 4%;
+        margin-top: 10%;
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 30px;
        }
        .content h1, .content p {
-        color: #d9d9d9;
-        text-shadow: 2px 2px 1px #000000;
+        color: #000000;
         font-size: 40px;
         font-family: Audiowide;
         text-align: center;
+        flex-direction: row; 
        }
        .content p {
         font-size: 20px;
         line-height: 30px;
         margin-top: -5px;
+        text-align: center;
        }
-       .content a {
-        position: relative;
-    background-color: #fcfafa94;
-    border: none;
-    border-radius: 30px;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: none;
-    color: #000000;
-       }
+       form {
+        display: flex; /* Enables flexbox for the form */
+        flex-direction: column; /* Stacks elements vertically */
+        align-items: center; /* Centers content horizontally */
+      }
+
+       .code-input {
+        display: flex;
+        justify-content: center;
+        width: 300px; 
+        margin: auto;
+        
+        
+      }
+      
+      .digit {
+        border: 2px solid #504f4f;
+        text-align: center;
+        padding: 5px;
+        font-size: 60spx;
+        width: 70px; /* Adjust width as needed */
+        height: 70px;
+      }
+      
+      .digit:focus {
+        border: 2px solid #007bff;
+        outline: none;
+      }
+      
+      button {
+        
+        margin-top: 30px;
+        margin-bottom: 50px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+      }
 
         
        footer {
