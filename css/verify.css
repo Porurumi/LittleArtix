@@ -34,12 +34,8 @@
             list-style: none;
             font-size: small;
         }
-        .fun{
-            
-            display: flex;
-            list-style: none;
-            
-        }
+        
+        
         
         .logo {
             display: flex; 
@@ -115,8 +111,8 @@
         border: 2px solid #504f4f;
         text-align: center;
         padding: 5px;
-        font-size: 60spx;
-        width: 70px; /* Adjust width as needed */
+        font-size: 30px;
+        width: 250px; /* Adjust width as needed */
         height: 70px;
       }
       
@@ -137,9 +133,10 @@
         cursor: pointer;
         
       }
+      
 
         
-       footer {
+      footer {
         margin-top: auto;
        }
         
@@ -153,6 +150,7 @@
             height: 100hv; 
 			
         }
+        
         
         
 

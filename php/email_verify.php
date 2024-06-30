@@ -75,7 +75,7 @@ require 'PHPMailer-master/src/Exception.php';
           echo '<div class="alert alert-success">Verification code sent to your email!</div>';
           session_start(); // Start the session
             $_SESSION["userEmail"] = $sanitizedEmail;
-          header("refresh: 2; url=verification_page.php");
+          header("refresh: 1; url=verification_page.php");
 
 
         } catch (Exception $e) {
