@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>IPT_finals</title>
-    <link rel="stylesheet" href="verify.css">
+    <title>Littler Artix</title>
+    <link rel="icon" type="image/x-icon" href="../images/finals_logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/verify.css">
 
 </head>
 
@@ -12,13 +14,13 @@
     <div class="navbar">
         <a href="#" class="logo">Little Artix <img src="images/finals_logo.png" alt="Logo"></a>
         <ul class="nav">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="reviews.html">Reviews</a></li>
-            <li><a href="feedback.php">Feedbacks</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/about.html">About</a></li>
+            <li><a href="../html/products.html">Products</a></li>
+            <li><a href="../html/services.html">Services</a></li>
+            <li><a href="../html/contact.html">Contact</a></li>
+            <li><a href="../html/reviews.html">Reviews</a></li>
+            <li><a href="../html/order.html">Pre-order</a></li>
         </ul>
     </div>
     <div class="container">
@@ -110,10 +112,10 @@ $conn->close();
 
 <footer>
     <div class="footer-content">
-        <ul class="nav">
-            <li><a href="#disclaimer">Disclaimer</a></li>
-            <li><a href="#termsandcondition">Terms and conditions</a></li>
-            <li><a href="#privacy policy">Privacy policy</a></li>
+        <ul class="foot">
+            <li><a href="../html/disclaimer.html">Disclaimer</a></li>
+            <li><a href="../html/termscondition.html">Terms and conditions</a></li>
+            <li><a href="../html/privacypolicy.html">Privacy policy</a></li>
         </ul>
     </div>
 </footer>
