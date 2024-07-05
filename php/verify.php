@@ -12,7 +12,7 @@
 
 <body>
     <div class="navbar">
-        <a href="#" class="logo">Little Artix <img src="images/finals_logo.png" alt="Logo"></a>
+        <a href="#" class="logo">Little Artix <img src="../images/finals_logo.png" alt="Logo"></a>
         <ul class="nav">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../html/about.html">About</a></li>
