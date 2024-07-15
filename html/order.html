@@ -24,44 +24,7 @@
     </div>
 
     <div class="buffer"></div>
-    <!--Tentative php code that sends data to the database the submit button is pressed -->
-    <!--
-        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            uploadData();
-            }
-            
-            function uploadData(){
-            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $email = $_POST['email'];
-            $mob_no = $_POST['mob_no'];
-            $name = $_POST['name'];
-            $order = $_POST['order'];
-            
-            }
-            //Submitting the database
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $database = "feedback";
-
-            //create connection
-            $conn = mysqli_connect($servername, $username, $password, $database);
-
-            if (!$conn) {
-                echo '<div class="alert alert-warning alert-dismissible fade show" role"alert"<strong>Connection Failed</strong></div>'. mysqli_connect_error();
-            }
-                else{
-                    $sql = "INSERT INTO `storedfeedbacks` (`id`, `s.no`, `email`, `mob_no`, `name`, `order`, `verification_code`, `used`, `timestamp`) VALUES ('',NULL,'$email','$mob_no','$name','$order','','', current_timestamp())";
-                    $result = mysqli_query($conn, $sql);
-                    if ($result) {
-                        echo '<div class="alert alert-warning alert-dismissible fade show" role"alert" <strong>Success!</strong> feedback is submitted from '. $email.'. Thank You!!</div>';
-                    }
-                    else{
-                        echo '<div class="alert alert-warning alert-dismissible fade show" role"alert" <strong>Erroruploading data</strong></div>'. mysqli_error($conn);
-                    }
-                }
-            }   
-    -->
+  
     <div class="feedbackc">
         <h1 align="center">PRE ORDER</h1>
         <p align="center">IF YOU WISH TO EXPERIENCE OUR PRODUCTS AND SERVICES...</p>
@@ -86,9 +49,9 @@
             </div>
             </div>
         <div class="mb-3 row">
-            <label for="order" class="col-sm-2 col-form-label feedtext"><b>ORDER SPECIFICATION</b></label>
+            <label for="ordered" class="col-sm-2 col-form-label feedtext"><b>ORDER SPECIFICATION</b></label>
             <div class="col-sm-10">
-                <textarea name="order" class="form-control" id="order" rows="6"></textarea>
+                <textarea name="ordered" class="form-control" id="ordered" rows="6"></textarea>
             </div>
         </div>
         

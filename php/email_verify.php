@@ -65,7 +65,7 @@ require 'PHPMailer-master/src/Exception.php';
           );
 
           $mail->setFrom('roanremetre00@gmail.com', 'Little Artix Order');
-          $mail->addAddress($sanitizedEmail);
+          $mail->addAddress('$sanitizedEmail');
           $mail->Subject = 'Little Artix Order Verification';
 
           // Set email content to plain text
@@ -95,5 +95,4 @@ require 'PHPMailer-master/src/Exception.php';
 
       mysqli_close($conn);
     }
-?> 
-
+?>

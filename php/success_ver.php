@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Little Artix</title>
@@ -7,25 +8,28 @@
     <link rel="icon" type="image/x-icon" href="../images/finals_logo.ico">
     <link rel="stylesheet" href="../css/success.css">
 </head>
+
 <body>
     <div class="navbar">
         <a href="#" class="logo">Little Artix <img src="../images/finals_logo.png" alt="Logo"></a>
         <ul class="nav">
-                <li><a href="../index.html">Home</a> </li>
-                <li> <a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a> </li>
-                <li> <a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a> </li>
-                <li> <a href="reviews.html">Reviews</a></li>
-                <li> <a href="order.html">Pre-order</a></li>
+            <li><a href="../index.html">Home</a> </li>
+            <li> <a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a> </li>
+            <li> <a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a> </li>
+            <li> <a href="reviews.html">Reviews</a></li>
+            <li> <a href="order.html">Pre-order</a></li>
         </ul>
     </div>
-   <div class="content">
-    <h1>Email Verified Successfully!</h1>
-    <h3>We will be in contact with you within 24 hours.<br><center>Have a nice day.</center>  <br></h3>
-        
-</div>
-<?php
+    <div class="content">
+        <h1>Email Verified Successfully!</h1>
+        <h3>We will be in contact with you within 24 hours.<br>
+            <center>Have a nice day.</center> <br>
+        </h3>
+
+    </div>
+    <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -87,7 +91,7 @@ if ($result->num_rows > 0) {
          );
           // Set up the email
         $mail->setFrom('roanremetre00@gmail.com', 'Rohan Remetre');
-        $mail->addAddress('legoldeestante@gmail.com', 'Maricon Bascon');
+        $mail->addAddress('demigodmaui62@gmail.com', 'Maricon Bascon');
         $mail->Subject = 'New Order Registered';
 
         // Set the email body
@@ -118,18 +122,19 @@ if ($result->num_rows > 0) {
 // Close the database connection
 $conn->close();
 ?>
-    
-    
-   
-	
+
+
+
+
 </body>
 <footer>
     <div class="footer-content">
         <ul class="foot">
             <li><a href="disclaimer.html">Disclaimer</a></li>
             <li><a href="termscondition.html">Terms and conditions</a></li>
-            <li><a href="privacypolicy.html">Privacy policy</a></li> 
+            <li><a href="privacypolicy.html">Privacy policy</a></li>
         </ul>
     </div>
 </footer>
+
 </html>
