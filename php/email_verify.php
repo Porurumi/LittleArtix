@@ -24,10 +24,10 @@ require 'PHPMailer-master/src/Exception.php';
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $email = $_POST["email"];
-      $order = $_POST["order"];
       $mob_no = $_POST['mob_no'];
       $name = $_POST['name'];
-      $order = $_POST['order'];
+     $order = $_POST["ordered"];
+     
       
       $conn = connectToDatabase();
 
@@ -35,7 +35,7 @@ require 'PHPMailer-master/src/Exception.php';
       $sanitizedEmail = mysqli_real_escape_string($conn, $email);
       $verificationCode = rand(100000, 999999);
 
-      $sql = "INSERT INTO `storedfeedbacks` (`id`,`s.no`,`email`, `mob_no`, `name`, `order`,`verification_code`, `used`, `timestamp`) VALUES ('',NULL,'$sanitizedEmail','$mob_no','$name','$order','$verificationCode','', current_timestamp())";
+      $sql = "INSERT INTO `storedfeedbacks` (`id`,`s.no`,`email`, `mob_no`, `name`, `ordered`,`verification_code`, `used`, `timestamp`) VALUES ('',NULL,'$sanitizedEmail','$mob_no','$name','$order','$verificationCode','', current_timestamp())";
       $result = mysqli_query($conn, $sql);
 
       if ($result) {
@@ -75,7 +75,7 @@ require 'PHPMailer-master/src/Exception.php';
           echo '<div class="alert alert-success">Verification code sent to your email!</div>';
           session_start(); // Start the session
             $_SESSION["userEmail"] = $sanitizedEmail;
-          header("refresh: 1; url=verification_page.php");
+          header("refresh: 1; url=verify.php"); //PALITAN MO TO NG NAME KUNG PAPALITAN MO ANG MGA FILE NAME 
 
 
         } catch (Exception $e) {

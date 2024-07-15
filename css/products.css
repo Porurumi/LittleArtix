@@ -214,3 +214,115 @@
             font-size: 15px;
         }
 
+        @media (max-width: 580px) {
+            #text{
+                margin-top: 20%;
+            }
+            .Cake{
+                margin-top: 35%;}
+            .navbar{
+                display: block;
+                height: 90px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .nav{
+                font-size: 15px;
+                padding: 0;
+                margin-top: 0;
+                justify-content: center;
+            }
+            .logo{
+                font-size: 15px;
+                margin-bottom: 0;
+                justify-content: center;
+            }
+            .logo img {
+                width: 50px;
+                margin-left: 2px;
+            }
+            .Description2 p, .Description p{
+                font-size: 18px;
+            }
+            .Description2 h3, .Description h3{
+                font-size: 30px;
+                text-align: center;
+            }
+            .End_msgs {
+                margin-right: 15vh;
+                margin-left: 15vh;
+            }
+            }
+            @media (max-width: 480px) {
+            #text{
+                margin-top: 24%;
+            }
+            .Cake{
+                margin-top: 42%;}
+            .nav{
+                font-size: 12px;}
+            .foot{
+                width: 80%;
+                padding: 0%;
+                text-align: center;
+                font-size: 90%;
+            }
+            .footer-content{
+                justify-content: center;
+            }
+            .product_image {
+                width: 270px;
+                height: 270px;
+            }
+            .Cake, .Cake2 {
+                margin-left: 40px;
+            }
+            .End_msgs {
+                margin-right: 10vh;
+                margin-left: 10vh;
+                padding: 7px;
+            }
+            .Description2 p, .Description p{
+                font-size: 16px;
+            }
+            .Description2 h3, .Description h3{
+                font-size: 25px;
+            }
+            .Description2, .Description{
+                margin-left: 15px;
+                margin-right: 40px;
+            }
+            }
+            @media (max-width: 400px) {
+            #text{
+                margin-top: 25%;
+            }
+            .Cake{
+                margin-top: 45%;}}
+            @media (max-width: 360px) {
+            #text{
+                margin-top: 30%;
+            }
+            .Cake{
+                margin-top: 55%;}
+            .nav{
+                font-size: 9.75px;}
+                .foot{
+                    font-size: 80%;
+                }
+                .product_image {
+                    width: 240px;
+                    height: 240px;
+                }
+                .Cake, .Cake2 {
+                    margin-left: 20px;
+                }
+                .End_msgs {
+                    margin-right: 5vh;
+                    margin-left: 5vh;
+                }
+                .Description2, .Description{
+                    margin-left: 10px;
+                    margin-right: 30px;
+                }
+            }

@@ -44,7 +44,7 @@
         $email = $_SESSION["userEmail"];
       } else {
         // Redirect to feedback page if email is not found in session (unusual case)
-        header("Location: feedback_nobs.php");
+        header("Location: order.php"); //PALITAN MO TO NG NAME KUNG PAPALITAN MO ANG MGA FILE NAME 
         exit;
       }
       ?>
@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($enteredCode === $recordedCode) { // Consider replacing with a simple comparison for verification codes
       // Codes match, verification successful!
       echo "<h3>Verification successful!</h3>"; // Handle successful verification
-      header("Location: success_ver.html");
+      header("Location: ../php/success_ver.php");//PALITAN MO TO NG FILE NAME KUNG PAPALITAN MO ANG MGA FILE NAME 
       exit();
     } else {
       // Codes don't match, display error message

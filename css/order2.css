@@ -29,6 +29,8 @@ body{
     margin-top: 50px;
     
 }
+
+
 /*Code from Bootstrap*/
 .mb-3{margin-bottom:1rem!important}
 
@@ -215,3 +217,44 @@ margin-right:auto;margin-left:auto}
 .fade:not(.show){opacity:0}.collapse:not(.show){display:none}
 .collapsing{height:0;overflow:hidden;transition:height .35s ease}@media (prefers-reduced-motion:reduce){.collapsing{transition:none}}
 
+/*Code for different screen sizes*/
+@media (max-width: 770px) {
+    .feedbackc{
+        margin-right: 75PX;
+        margin-left: 75px;
+    }
+}
+@media (max-width: 670px) {
+    .feedbackc{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 600px) {
+    .row{
+        display: block;
+    }
+    .feedbackc{
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 90%;
+    }
+    .form-control{
+        width: 100%;
+    }
+}
+@media (max-width: 580px) {
+    .feedbackc{
+        margin-right: 25px;
+        margin-left: 25px;
+        font-size: 80%;
+    }
+}
+@media (max-width: 360px) {
+    .feedbackc{
+        margin-right: 15px;
+        margin-left: 15px;
+        padding-left: 6%;
+        font-size: 70%;
+    }
+}
